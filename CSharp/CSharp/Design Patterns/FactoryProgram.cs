@@ -1,4 +1,4 @@
-﻿namespace CSharp
+﻿namespace CSharp.DesignPatterns
 {
     static class FactoryProgram
     {

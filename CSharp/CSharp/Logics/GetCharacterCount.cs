@@ -25,5 +25,27 @@
             }
             return characterDict;
         }
-    }
+
+        public static void CountCharacterOccurrences(string input)
+        {
+            while (input.Length > 0)
+            {
+                char currentChar = input[0];
+                int count = 0;
+
+                foreach (char c in input)
+                {
+                    if (c == currentChar)
+                    {
+                        count++;
+                    }
+                }
+
+                Console.WriteLine("{0} : {1}", currentChar, count);
+
+                input = input.Replace(currentChar.ToString(), string.Empty);
+            }
+        }
+    }    
 }
+

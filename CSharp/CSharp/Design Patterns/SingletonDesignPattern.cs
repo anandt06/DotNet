@@ -1,17 +1,17 @@
-﻿namespace CSharp
+﻿namespace CSharp.DesignPatterns
 {
-    class Singleton1
+    class Singleton
     {
-        private Singleton1()
+        private Singleton()
         {
 
         }
 
         private static readonly object lock1 = new object();
 
-        private static Singleton1? instance;
+        private static Singleton? instance;
 
-        public static Singleton1 Instance
+        public static Singleton Instance
         {
             get
             {
@@ -19,7 +19,7 @@
                 {
                     if (instance == null)
                     {
-                        instance = new Singleton1();
+                        instance = new Singleton();
                     }
                     return instance;
                 }

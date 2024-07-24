@@ -1,4 +1,4 @@
-﻿namespace CSharp
+﻿namespace CSharp.DesignPatterns
 {
     internal class FactoryDesignPattern
     {

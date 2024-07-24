@@ -1,6 +1,6 @@
 ﻿using System.Drawing;
 
-namespace CSharp
+namespace CSharp.DesignPatterns
 {
     public interface ISubject
     {

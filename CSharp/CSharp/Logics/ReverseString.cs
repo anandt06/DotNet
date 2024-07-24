@@ -10,7 +10,22 @@ namespace CSharp.Logics
 
             IsPalindrome("MALATALAM");
 
+            ReverseNumber(123);
+
         }
+
+        private static void ReverseNumber(int number)
+        {
+            int reverse = 0;
+            while (number > 0)
+            {
+                var remainder = number % 10;
+                number = number / 10;
+                reverse = reverse * 10 + remainder;
+            }
+            Console.WriteLine(reverse);
+        }
+
         static string ReverseString()
         {
             string rev = "";
@@ -44,5 +59,7 @@ namespace CSharp.Logics
             }
             return true;
         }
+
+
     }
 }

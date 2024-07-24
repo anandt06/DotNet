@@ -14,13 +14,21 @@
             Console.WriteLine("Bow Bow");
         }
     }
-    internal class PractiseProgram
+    public class PractiseProgram
     {
         static void Main(string[] args)
         {
             Animal animal = new Dog();
             animal.MakeSound();
 
+          
+
         }
+
     }
+
+    //protected class Abc
+    //{
+    //    //public virtual void MakeSound() {
+    //}
 }
