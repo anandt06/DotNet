@@ -4,11 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Animal animal = new Dog();
-            animal.MakeSound();
-
             SortMultiDimensionalAray();
-
         }
         public static void SortMultiDimensionalAray()
         {

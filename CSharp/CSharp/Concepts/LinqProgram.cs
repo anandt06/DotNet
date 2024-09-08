@@ -32,6 +32,7 @@
                 Persons = g.ToList(),
             });
 
+            var abc1  = persons.Distinct().ToList();
 
             var abc = persons.GroupBy(p => p.Car).Select(g => new { Car = g.Key, Persons = g.ToList() });
 

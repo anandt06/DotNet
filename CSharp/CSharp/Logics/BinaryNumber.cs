@@ -2,7 +2,6 @@
 {
     class BinaryNumber
     {
-
         static void Main(string[] args)
         {
             var binaryNumber = GetBinaryNumber(11);

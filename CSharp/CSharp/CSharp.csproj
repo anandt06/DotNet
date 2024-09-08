@@ -5,7 +5,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>CSharp.Logics.Permutation</StartupObject>
+    <StartupObject>CSharp.PractiseProgram</StartupObject>
   </PropertyGroup>
 
 </Project>
