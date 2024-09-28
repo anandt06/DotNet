@@ -30,7 +30,7 @@ namespace CSharp.Logics
         {
             string rev = "";
             string name = "Anand";
-            for (int i = name.Length - 1; i >= 0; i--)
+            for (int i = name.Length-1; i >= 0; i--)
             {
                 rev += name[i];
             }
